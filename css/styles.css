@@ -1,5 +1,5 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 
 /* Estilos generales */
 
@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Belanosima', sans-serif;
     font-size: 18px;
     line-height: 1.2;
     background-color: #fbfbfb;
@@ -28,12 +28,12 @@ a {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 48px;
     text-align: center;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 32px;
 }
 
 p {
@@ -110,7 +110,7 @@ section {
 /* Sección Inicio */
 section#inicio {
     justify-content: space-around;
-    padding-top: 120px;
+    padding-top: 120px; 
 }
 
 figure.presentacion-img {
@@ -135,6 +135,11 @@ a.btn {
     font-size: 20px;
     display: inline-block;
     box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+a.btn:hover {
+    background-color:#9AA3D2;
+    color:  #080686;
 }
 
 /* Sección Skills*/
@@ -185,6 +190,10 @@ ul#contact-links li {
     padding: 8px;
     border-radius: 4px;
 }
+ul#contact-links li:hover {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);   
+}
 
 img.icon {
     width: 200px;
@@ -210,6 +219,10 @@ footer {
     h1 {
         font-size: 26px;
         text-align: center;
+    }
+    section#inicio {
+        justify-content: space-around;
+        padding-top: 120px;
     }
     figure.presentacion-img img {
         border-radius: 50%;
